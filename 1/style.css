@@ -1,0 +1,35 @@
+.board {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  width: 300px;
+  height: 300px;
+  /* background-color: hotpink; */
+  box-shadow: 20px 20px 50px 15px grey;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 204, 232);
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.tile:hover {
+  background-color: khaki;
+}
+
+.fill-x::before {
+  content: "X";
+}
+
+.fill-o::after {
+  content: "O";
+}

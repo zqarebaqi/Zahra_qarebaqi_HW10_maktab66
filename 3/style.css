@@ -1,0 +1,32 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.greenColor {
+  color: #009688;
+}
+
+.greenbgcolor {
+  background-color: #009688;
+}
+.graycolor {
+  color: #666666;
+}
+
+.lightergraycolor {
+  color: #757575;
+}
+
+.m-border-bottom {
+  border-bottom: 4px solid #a3a3a3;
+}
+
+.m-progress {
+  height: 30px;
+  width: 100%;
+}
+
+.m-position {
+  bottom: 15px;
+  left: 12px;
+}
